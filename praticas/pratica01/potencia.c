@@ -1,6 +1,6 @@
 #include <stdio.h> 
 int main( ){
-    int  base = 5 ;
+    int  base = 5;
     int expoente = 3 ;
    long int res = 1;
 
@@ -9,4 +9,4 @@ int main( ){
   }
     printf(" res = %d\n",res) ;    
    return 0;
-}
+} 

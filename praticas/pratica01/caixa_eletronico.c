@@ -1,11 +1,8 @@
 #include <stdio.h>
 int main(){
 int cedulas []={200,100,50,20,10,5,2};
-int saque;
+int saque = 850;
 int total_notas;
-
-printf("digite o valor do saque ( pode até R$1000) : ");
-scanf("%d",&saque);
 
 if(saque >1000 || saque <= 0){
 printf("valor invalido!\n");
