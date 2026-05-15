@@ -1,9 +1,9 @@
 #ifndef LISTA_ENCADEADA_H
 #define LISTA_ENCADEADA_H
 
-typedef struct {
+typedef struct NO {
     int dado;
-    No* proximo;
+    struct NO* proximo;
 } No;
 
 typedef struct 
