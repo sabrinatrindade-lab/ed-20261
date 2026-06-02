@@ -40,4 +40,4 @@ int main() {
     printf("\nLimpando memoria e finalizando...\n");
     lista_destruir(minha_lista);
 
-    return 0;  
+    return 0; } 
