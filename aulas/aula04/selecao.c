@@ -41,6 +41,7 @@ int parcionar_vetor(int v[], int inicio, int fim){
         // procura depois do pivo
         return quick_select(v, pivo + 1, fim, valor);} 
       
+        return + i;
     }
   
     
